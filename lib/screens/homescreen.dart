@@ -115,23 +115,23 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(
               height: 10,
             ),
-            const LeftBar(barWidth: 40),
+            const RightBar(barWidth: 40),
+            const SizedBox(
+              height: 20,
+            ),
+            const RightBar(barWidth: 70),
+            const SizedBox(
+              height: 20,
+            ),
+            const RightBar(barWidth: 40),
             const SizedBox(
               height: 20,
             ),
             const LeftBar(barWidth: 70),
             const SizedBox(
-              height: 20,
-            ),
-            const LeftBar(barWidth: 40),
-            const SizedBox(
-              height: 20,
-            ),
-            const RightBar(barWidth: 70),
-            const SizedBox(
               height: 50,
             ),
-            const RightBar(barWidth: 70),
+            const LeftBar(barWidth: 70),
           ],
         ),
       ),
